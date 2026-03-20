@@ -1,10 +1,5 @@
 {
-  "build": {
-    "env": {
-      "ENABLE_VERCEL_NPM": "1"
-    }
-  },
-  "install": {
-    "cache": false
-  }
+  "buildCommand": "npx hexo generate",
+  "installCommand": "npm install --force",
+  "outputDirectory": "public"
 }
