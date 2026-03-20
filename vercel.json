@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "ENABLE_VERCEL_NPM": "1"
+    }
+  },
+  "install": {
+    "cache": false
+  }
+}
